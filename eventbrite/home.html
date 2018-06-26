@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EventBrite</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/mycss.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="home.html"><strong class="event">Eventbrite</strong></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto ">
+				<li class="nav-item border-left p-1 botder-right">
+					<a class="nav-link text-secondary " href="events.html">BROWSE EVENTS</a>
+				</li>
+				<li class="nav-item p-1 border-left botder-right dropdown">
+					<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						ORGANIZE
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="organizer/overveiw.html">Overview</a>
+						<a class="dropdown-item" href="organizer/pricing.html">Pricing</a>
+						<a class="dropdown-item" href="organizer/blog.html">Blog</a>
+						<!-- <a class="dropdown-item href="#Resources">Resources</a> -->
+					</div>
+				</li>
+				<li class="nav-item p-1 border-left botder-right dropdown">
+					<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						HELP
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Where are my tickets?</a>
+						<a class="dropdown-item" href="#">how to contact the event organizer</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item p-1 text-primary" href="support.html">help center</a>
+					</div>
+				</li>
+				<li class="nav-item p-1 border-left botder-right">
+					<a class="nav-link " href="signin.html">SIGN IN</a>
+				</li>
+				<li class="nav-item border-left">
+					<a class="nav-link " href="#" id="create">CREATE EVENT</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+
+	<div id="demo" class="carousel slide position-absolute" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/img1.jpg" alt="Los Angeles" width="1100" height="500">
+			</div>
+			<div class="carousel-item">
+				<img src="img/img2.jpg" alt="Chicago" width="1100" height="500">
+			</div>
+			<div class="carousel-item">
+				<img src="img/img3.jpg" alt="New York" width="1100" height="500">
+			</div>
+		</div>
+	</div>
+	<div class="shadow p-4 mb-4 bg-white">
+
+		<div>
+			<div class="container  position-relative">
+				<h1 class="jumbotron bg-white event bg-white text-center  hcontent" >
+				Find your next experience</h1>
+				<center>
+					<form>
+						<div class="input-group w-75 ml-5 mb-3" id="input-group-shift">
+
+							<input type="text" class="form-control" placeholder="Search Event or Category">
+							<input type="text" class="form-control" placeholder="City or Location">
+							<select class="form-control">
+								<option>All Dates</option>
+								<option>Tommorow</option>
+								<option>This Week</option>
+								<option>This Weekend</option>
+								<option>Next Week</option>
+								<option>Next Month</option>	
+							</select>
+							
+							<div class="input-group-append">
+								<button class="btn btn-success " id="color" type="submit">Search</button> 
+							</div>
+						</div>
+						
+					</form>
+				</center>
+			</div>
+		</div>
+
+
+
+
+		<div class="container">
+			<center>
+				<h1 class="font-weight-light">Event for you in <a href="#"> Indore,India</a></h1>
+
+				<div class="container">
+				</center> 
+				<div class="card-deck  mt-5">
+					<div class="card w-100" >
+						<img src="img/card1.jpg" alt="no image" height="200px;" width="350px;">
+						<div class="card-body">
+							<p class="card-text">SAT JUNE 23 10:00 PM</p>
+							<b> LADIES FREE ALL NIGHT AT TRUTH (formerly krave)</b>
+							<p>TRUTH INGHTCLUB Atlanta</p>
+							<a href="#">#fooddrink</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="img/card2.jpg" alt="no image" height="200px;" width="350px;">
+						<div class="card-body ">
+							<p class="card-text">SAT JUNE 23 10:00 PM</p>
+							<b>ROOFTOP PARTY SATURDAY NIGHT AT HUDSON TERRACE </b>
+							<p>HUDSON TERRACE. New York</p>
+							<a href="#">#Music</a>
+						</div>
+					</div>
+					<div class="card img-fluid" height="200px;" style="width:350px">
+						<img class="card-img-top" src="img/card3.jpg" alt="Card image" height="393px;" width="350px;">
+						<div class="card-img-overlay">
+							<h4 class="card-title text-center text-white mt-5">See which event your facebook frinds are attending</h4>
+
+							<a href="#" class="btn btn-primary w-75 ml-5">facebook</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="card-deck  mt-5">
+					<div class="card w-100" >
+						<img src="img/card4.jpg" alt="no image" height="200px;" width="350px;">
+						<div class="card-body">
+							<p class="card-text">SAT JUNE 22 10:00 PM</p>
+							<b> Suite Life Fridays At Suite Lounge With Big tiger.</b>
+							<p>Suite Lounge Atlanta</p>
+							<a href="#">#Music</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="img/card5.jpg" alt="no image" height="200px;" width="350px;">
+						<div class="card-body ">
+							<p class="card-text">SAT OCT 6 11:00 PM</p>
+							<b>8th Annual Atlanta Hip Hop Day Festival </b>
+							<p>Woodruff Park. Atlanta</p>
+							<a href="#">#Festival</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="img/card6.jpg" alt="no image" height="200px;" width="350px;">
+						<div class="card-body ">
+							<p class="card-text">SAT JULY 17 10:00 PM</p>
+							<b>LONDON Film & Comic Con SUMMER 2018 </b>
+							<p>Olympia. London</p>
+							<a href="#">#FilmMedia</a>
+						</div>
+					</div>
+					<div class="card-deck  mt-5">
+						<div class="card w-100" >
+							<img src="img/gallery3.jpg" alt="no image" height="200px;" width="358px;">
+							<div class="card-body">
+								<p class="card-text">SAT JUNE 23 10:00 PM</p>
+								<b>ROOFTOP PARTY SATURDAY NIGHT TIMES SQUARE | 360 VIEWS OF NYC</b>
+								<p>SKY ROOM. New York</p>
+								<a href="#">#Party</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="img/gallery1.jpg" alt="no image" height="200px;" width="358px;">
+							<div class="card-body ">
+								<p class="card-text">SAT JUNE 23 3:00 PM</p>
+								<b>ATLANTA'S #1 TOPROOF DAY PARTY | 200 VIEWS OF NYC </b>
+								<p>CAFE CIRCA. ATLANTA</p>
+								<a href="#">#Party</a>
+							</div>
+						</div>
+						<div class="card ">
+							<img src="img/gallery2.jpg" alt="no image" height="200px;" width="358px;">
+							<div class="card-body ">
+								<p class="card-text">FRI JUNE 23 10:00 PM</p>
+								<b>ROOFTOP PARTY FRIDAY NIGHT HUDSON TERRACE </b>
+								<p>HUDSON TERRACE. New York</p>
+								<a href="#">#Music</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<center><button class="btn btn-outline-primary mt-4" type="button">SEE MORE</button></center> 
+
+			<h1 class="text-center mt-4">Browse by top Categories</h1>
+
+			<div class="container">
+				<div class="card-deck">
+					<div class="card img-fluid mt-4 w-75" height="200px;" style="width:750px">
+						<img class="card-img-top" src="img/gallery5.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">MUSIC</h2>
+							<p class="card-text text-white text-center">Intimate house concerts,major music festivals and the occasional dance party</p>
+						</div>
+					</div>
+
+					<div class="card img-fluid mt-4" height="200px;" style="width:250px">
+						<img class="card-img-top" src="img/gallery3.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">FOOD AND DRINK</h2>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="card-deck">
+					<div class="card img-fluid mt-4  " height="200px;" style="width:750px">
+						<img class="card-img-top" src="img/card7.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">Classes</h2>
+						</div>
+					</div>
+
+					<div class="card img-fluid mt-4" height="200px;" style="width:250px">
+						<img class="card-img-top" src="img/card8.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">Arts</h2>
+
+						</div>
+					</div>
+					
+					<div class="card img-fluid mt-4" height="200px;" style="width:250px">
+						<img class="card-img-top" src="img/card9.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">Parties</h2>
+
+						</div>
+					</div>
+					
+				</div>
+				
+
+
+				<div class="card-deck ">
+					<div class="card img-fluid mt-4 " height="200px;">
+						<img class="card-img-top" src="img/gallery7.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">MUSIC</h2>
+							<p class="card-text text-white text-center">Intimate house concerts,major music festivals and the occasional dance party</p>
+						</div>
+					</div>
+
+					<div class="card img-fluid mt-4" height="200px;" >
+						<img class="card-img-top" src="img/gallery6.jpg" alt="Card image" height="200px;" width="750px;">
+						<div class="card-img-overlay">
+							<h2 class="card-title text-center text-white mt-5">FOOD AND DRINK</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid ">
+		
+		<footer class="bg-dark pt-5 mt-4 pb-5">
+			<div class="container text-white">
+				<div class="row border-bottom">
+					<div class="col-md">
+						<h4>Use Eventbrite</h4>
+						<nav class="navbar navbar-dark">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="">How it Works</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">For Large & Complex Event</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Pricing</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Content Standard</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Eventbrite Mobile App</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Eventbrite Check-in App</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Eventbrite Spectrum</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">FAQ's</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Site Map</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md">
+						<h4>Plan Events</h4>
+						<nav class="navbar navbar-dark">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="">Conferece Management Software</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Food and Drink Ticketing</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Nonprofits & Fundraisers</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Sell Tickets</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Event Management & Planning</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Online Event Registration</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Online RSVP</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Music Venues & Promoters</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Event Equipment & Staffing</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Free Event Management Courses</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md">
+						<h4>Find Events</h4>
+						<nav class="navbar navbar-dark">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="">Boston Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Chicago Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Denver Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Houston Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Los Angeles Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Nashville Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">New York Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">San Diego Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">San Francisco Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">All Cities </a>
+								</li>
+							</ul>
+						</nav>					
+					</div>
+
+					<div class="col-md">
+						<h4>Connect With Us</h4>
+						<nav class="navbar navbar-dark">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+									Contact Support</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+									Contact Sales</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+									Twitter</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-facebook fa-fw" aria-hidden="true"></i>
+									Facebook</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+									LinkedIn</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>
+									Instagram</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""><i class="fa fa-google fa-fw" aria-hidden="true"></i>
+									Google+</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">FAQ's</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="">Site Map</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<div class="row border-bottom">
+					<div class="col-md">
+						<h4>Country</h4>
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Argentina</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Australia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">België</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Belgique</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Brasil</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Canada (EN)</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Canada (FR)</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Chile</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Colombia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Deutschland</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">España</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">France</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#"> Hong Kong</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Ireland</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Italia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">United States</a>
+							</li>
+						</ul> 
+					</div>
+				</div>
+				
+				<div class="row border-bottom">
+					<div class="col-md">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Help</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Careers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Press</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Security</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Developers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Teams</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Privacy</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link linkhover" href="#">Cookies</a>
+							</li>
+						</ul> 
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<p class="text-center mt-5">2018 Eventbrite</p>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+.bgimage{
+	background-image: url(../../img/hero.jpg);
+	border:1px solid;
+	color: white;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+
+
+
+}
+
+.bg-blog{
+	background-image: url(../../img/bg-blog.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	height: 300px;
+
+
+}
+
+.blk{
+	background-color: lightgray;
+	
+	
+	width: 90%;
+
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+	
+
+}
+
+.txt{
+	margin: 0;
+	background-color: white;
+	padding: 50px 50px;
+	
+}
+
+.linkhover:hover{
+	color: white;
+}
+
+
+
+
+.card-hover:hover{
+	margin-top: -3px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
